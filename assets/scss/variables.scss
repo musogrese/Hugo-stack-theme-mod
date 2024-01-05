@@ -20,11 +20,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --accent-color-text: #ccc6c0;
     --body-text-color: #dbd8cf;
 
-    --tag-border-radius: 4px;
+    --tag-border-radius: 0px;
 
     --section-separation: 40px;
 
-    --scrollbar-thumb: hsl(240, 6%, 19%);
+    --scrollbar-thumb: #4b6b8a;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
@@ -52,7 +52,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #ccc6c0;
+    --card-background: #909fa6;
     --card-background-selected: #ccc6c0;
 
     --card-text-color-main: #121212;
