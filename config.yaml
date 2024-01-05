@@ -134,6 +134,8 @@ params:
         enabled:
             - search
             - tag-cloud
+            - test
+            - music
 
         tagCloud:
             limit: 10
