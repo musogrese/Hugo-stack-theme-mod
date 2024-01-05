@@ -130,14 +130,6 @@ params:
         cusdis:
             host:
             id:
-    widgets:
-        enabled:
-            - search
-            - tag-cloud
-            - categories
-
-        tagCloud:
-            limit: 10
 
     opengraph:
         twitter:
