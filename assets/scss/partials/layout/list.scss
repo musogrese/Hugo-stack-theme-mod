@@ -49,6 +49,32 @@
 }
 
 .subsection-list {
+    .article-list--tagtile {
+        display: flex;
+        padding-bottom: 10px;
+        flex-wrap: wrap; //实现Archive中的Tag卡片自动换行
+
+        article {
+            width: auto; //改爲200px
+            height: auto; //改爲50px
+            margin-left: 7px; 
+            margin-right: 5px; //改爲5px
+            margin-top: 7px; //新增一行
+            flex-shrink: 0;
+            background-color: #ccc6c0;
+            border-radius: 20px;
+
+            .article-title {
+                margin: 0;
+                font-size: 1.4rem;
+            }
+
+            .article-details {
+                padding: 15px 22px;
+            }
+
+        }
+    }
     margin-bottom: var(--section-separation);
     overflow-x: auto;
 

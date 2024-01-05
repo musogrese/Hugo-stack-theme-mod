@@ -6,11 +6,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     @include respond(md) {
-        --main-top-padding: 35px;
+        --main-top-padding: 75px;
     }
 
     @include respond(xl) {
-        --main-top-padding: 50px;
+        --main-top-padding: 75px;
     }
 
     --body-background: #2f2f2f;
