@@ -134,7 +134,7 @@ params:
         enabled:
             - search
             - tag-cloud
-            - music
+            - categories
 
         tagCloud:
             limit: 10
