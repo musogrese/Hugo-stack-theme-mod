@@ -17,19 +17,19 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     --accent-color: #e0c6b1;
     --accent-color-darker: #e0cb61;
-    --accent-color-text: #ccc6c0;
+    --accent-color-text: #0d262d;
     --body-text-color: #dbd8cf;
 
     --tag-border-radius: 0px;
 
     --section-separation: 40px;
 
-    --scrollbar-thumb: #4b6b8a;
+    --scrollbar-thumb: #adaeae;
     --scrollbar-track: var(--body-background);
 
     &[data-scheme="dark"] {
         --body-background: #303030;
-        --accent-color: #ecf0f1;
+        --accent-color: #000000;
         --accent-color-darker: #bdc3c7;
         --accent-color-text: #000;
         --body-text-color: rgba(255, 255, 255, 0.7);
