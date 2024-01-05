@@ -93,3 +93,20 @@
         }
     }
 }
+
+#previousButton,
+#nextButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* 这会在两个按钮之间增加一些空间 */
+}
+
+#previousButton:hover,
+#nextButton:hover {
+  background-color: #0056b3;
+}

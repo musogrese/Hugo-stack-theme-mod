@@ -57,3 +57,32 @@ a {
         color: var(--body-text-color);
     }
 }
+
+/* 这里是示例样式，你可以根据需要自定义 */
+#playNextButton,
+#playPreviousButton {
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #f0f0f0;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px; /* 这会在两个按钮之间增加一些空间 */
+}
+
+#previousButton:hover,
+#nextButton:hover {
+  background-color: #0056b3;
+}
+
+#musicPlayer {
+    margin-bottom: 5px; /* 增加播放器底部间距 */
+    margin-top: 5px
+  }
+  
+  #playNextButton,
+  #playPreviousButton {
+    margin-top: 5px; /* 增加按钮上部间距 */
+  }
+  
