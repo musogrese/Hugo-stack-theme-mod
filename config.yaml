@@ -2,7 +2,7 @@ baseurl: https://example.com
 languageCode: en-us
 theme: stack
 paginate: 5
-title: 松茸乐园
+title: Example Site
 
 # Change it to your Disqus shortname before using
 disqusShortname: stack
@@ -39,7 +39,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 施工中，非常抱歉！
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
             local: true
