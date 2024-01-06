@@ -39,7 +39,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        subtitle: 施工中，非常抱歉！
+        subtitle: 尽力了，真做不出来。
         avatar:
             enabled: true
             local: true
@@ -86,13 +86,13 @@ params:
             serverURL: https://comments.alecareuticec.top/ 
             lang: 
             visitor: 
-            avatar: 'robohash' 
+            avatar: hide
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+                - https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/
             requiredMeta:
                 - name
                 - email
-                - url
+            requireMeta-font-size: 16px
             placeholder:
             locale:
                 admin: Admin
