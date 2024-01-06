@@ -53,7 +53,7 @@ params:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
-    comments:
+    comments: 
         enabled: true
         provider: waline
 
@@ -82,12 +82,11 @@ params:
             clientSecret:
             autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
             serverURL: https://comments.alecareuticec.top/ 
             lang: 
             visitor: 
-            avatar:
+            avatar: 'robohash' 
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
