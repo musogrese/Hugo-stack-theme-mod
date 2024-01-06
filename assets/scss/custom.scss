@@ -137,3 +137,9 @@ blockquote.quote {
     color: #fff;
     background: #34495e;
 }
+
+//鼠标指针自定义，放在`static/img`内或者引用外部网站链接。
+body{cursor:url(/img/111.png), default;} //默认时的鼠标样式
+a:hover{cursor:url(/img/222.png), pointer;} //指向链接时的鼠标样式
+input {cursor: url(/img/111.png), text;} //
+button:hover {cursor: url(/img/222.png), pointer;}

@@ -90,10 +90,11 @@ params:
             emoji:
                 - https://cdn.jsdelivr.net/gh/Saidosi/azuki-emoji-for-waline@1.0/azukisan/
             requiredMeta:
-                - name
+                - nick
                 - email
+                - empty
             requireMeta-font-size: 16px
-            placeholder:
+            placeholder: 欢迎光临，已配置邮箱提醒！
             locale:
                 admin: Admin
 

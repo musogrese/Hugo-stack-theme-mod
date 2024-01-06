@@ -2,9 +2,8 @@
 <div id="waline" class="waline-container"></div>
 <style>
     .waline-container {
-        background-color: var(--card-background);
+        background-color: #ccc6c0;
         border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l2);
         padding: var(--card-padding);
           /* 主题色 */
         --waline-theme-color: #0d262d; //主题色，提交按钮和ID颜色
@@ -15,9 +14,7 @@
         --waline-bgcolor: transparent;
         --waline-font-size: 16px;
         --waline-info-font-size: 10px;
-        background-color: var(--card-background);
         border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
         padding: var(--card-padding);
     }
     .waline-container .vcount {
@@ -41,5 +38,7 @@
 <script>
     /// Waline client configuration see: https://waline.js.org/en/reference/client.html
     new Waline({{ $config | jsonify | safeJS }});
+    
 </script>
+
 {{- end -}}
