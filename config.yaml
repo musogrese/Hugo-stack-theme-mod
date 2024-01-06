@@ -27,7 +27,8 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /img/favicon.ico
+
 
     footer:
         since: 2024
@@ -54,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -83,7 +84,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
+            serverURL: https://comment-git-main-musogreses-projects.vercel.app/
             lang:
             visitor:
             avatar:
