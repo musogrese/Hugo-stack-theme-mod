@@ -84,9 +84,9 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL: https://comment-git-main-musogreses-projects.vercel.app/
-            lang:
-            visitor:
+            serverURL: https://comments.alecareuticec.top/ 
+            lang: 
+            visitor: 
             avatar:
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
