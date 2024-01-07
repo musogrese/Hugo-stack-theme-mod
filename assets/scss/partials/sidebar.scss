@@ -13,7 +13,7 @@
     align-self: stretch;
 
     width: 100%;
-    padding: 30px 0 15px 0;
+    padding: 30px 0 10px 0;
     max-width: none;
 
     --sidebar-avatar-size: 110px;
@@ -28,7 +28,7 @@
 
     @include respond(2xl) {
         --sidebar-avatar-size: 140px;
-        --sidebar-element-separation: 25px;
+        --sidebar-element-separation: 20px;
     }
 
     &.sticky {
@@ -110,7 +110,7 @@
         color: var(--body-text-color);
         font-weight: normal;
         text-align:left; //站点描述居中
-        font-size: 1.6rem;
+        font-size: 1.5rem;
 
         @include respond(2xl) {
             font-size: 1.7rem;

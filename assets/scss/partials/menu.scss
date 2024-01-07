@@ -154,7 +154,7 @@
     }
 
     @include respond(xl) {
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     li {
@@ -166,7 +166,7 @@
             margin-bottom: 15px;
 
             @include respond(xl) {
-                margin-bottom: 20px;
+                margin-bottom: 15px;
             }
         }
 

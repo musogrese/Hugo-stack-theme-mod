@@ -19,7 +19,7 @@ DefaultContentLanguage: en
 hasCJKLanguage: true
 
 permalinks:
-    post: /:year/:slug/
+    post: /:slug/
     page: /:slug/
 
 params:
@@ -39,7 +39,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        subtitle: 你知道吗？树枕尾熊一辈子都会在睡眠中度过。
+        subtitle: Mais ou sont les neiges d'antan? 
         avatar:
             enabled: true
             local: true
