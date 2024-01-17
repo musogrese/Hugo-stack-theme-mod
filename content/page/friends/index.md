@@ -4,7 +4,7 @@ date: 2019-05-28
 description: 
 slug: "links"
 layout: links
-comments: true
+comments: false
 license: false
 menu: 
     main:
@@ -25,5 +25,5 @@ menu:
 </style>
 
 
-## 广告位招租！
+### 广告位招租！欢迎和我交换友链！
 
