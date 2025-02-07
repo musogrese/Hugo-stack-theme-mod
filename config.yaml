@@ -201,3 +201,9 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+outputs:
+  home: ["HTML"]
+
+disableKinds:
+  - RSS
+
