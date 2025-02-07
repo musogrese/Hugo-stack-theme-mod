@@ -204,6 +204,6 @@ markup:
 outputs:
   home: ["HTML"]
 
-disableKinds:
+  disableKinds:
   - RSS
 
